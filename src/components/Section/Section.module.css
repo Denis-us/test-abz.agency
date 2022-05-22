@@ -1,0 +1,6 @@
+.section {
+    display: flex;
+    justify-content: center;
+    width: 360px;
+    margin-bottom: 140px;
+}

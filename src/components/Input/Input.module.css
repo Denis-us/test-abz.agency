@@ -1,0 +1,15 @@
+.input {
+    width: 328px;
+    height: 54px;
+    padding-left: 16px;
+    border: 1px solid #D0CFCF;
+    border-radius: 4px;
+}
+
+.input:hover, :focus {
+    background-color: #ffffff;
+}
+
+.input:not(:last-child) {
+    margin-bottom: 50px;
+}

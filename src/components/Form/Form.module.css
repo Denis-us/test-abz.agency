@@ -1,0 +1,63 @@
+.form {
+    margin-top: 50px;
+}
+
+.inputText {
+    margin-bottom: 25px;
+}
+
+.examplePhone {
+    margin-top: 4px;
+    margin-left: 16px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #7E7E7E;
+}
+
+.radioTitle {
+    margin-bottom: 11px;
+}
+
+.radioButton {
+    margin-top: 11px;
+    margin-bottom: 50px;
+}
+
+.labelRadio {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.labelRadio:not(:last-child) {
+    margin-bottom: 7px;
+}
+
+.uploadPhotoLabel {
+    display: flex;
+    border-radius: 4px;
+}
+
+.uploadPhoto {
+    margin-bottom: 50px;
+}
+
+.btnUpload {
+    width: 83px;
+    height: 54px;
+    border: 1px solid rgba(0, 0, 0, 0.87);
+    border-radius: 4px 0px 0px 4px;
+    background-color: #ffffff;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.inputUpload {
+    width: 245px;
+    padding-left: 16px;
+    margin-left: -1px;
+    border-radius: 4px;
+    border: 1px solid #D0CFCF;
+    border-radius: 0px 4px 4px 0px;
+    z-index: 1;
+}

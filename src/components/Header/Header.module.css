@@ -1,0 +1,32 @@
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: #FFFFFF;
+}
+
+.headerLogo {
+    display: flex;
+    margin-right: 14px;
+}
+
+.headerButtonList {
+    display: flex;
+}
+
+.headerLogoListElement {
+    display: flex;
+    align-items: center;
+}
+
+.headerButtonListElement:not(:last-child) {
+    margin-right: 10px;
+}

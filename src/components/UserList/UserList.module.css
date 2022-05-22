@@ -1,0 +1,17 @@
+.list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0px 50px 0px;
+}
+.listEl {
+    text-align: center;
+    width: 328px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.listEl:not(:last-child) {
+    margin-bottom: 20px;
+}
